@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPLITTER</title>
+
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="assets/style.js"></script>
+    <script src="assets/calculation.js"></script>
+  </head>
+  <body>
+    <h1>
+      SPLI <br />
+      TTER
+    </h1>
+
+    <main class="card">
+      <section class="input_panel">
+        <div class="input_group">
+          <label class="input_label" for="bill_amount"
+            >Bill
+            <span class="warning_msg">Can't be zero</span>
+          </label>
+          <div class="input_icon bill">
+            <input type="number" id="bill_amount" placeholder="0" />
+          </div>
+        </div>
+        <div class="tip_select">
+          <label class="input_label">Select Tip %</label>
+          <div class="tip_select__wrapper">
+            <button value="5" class="opt_btn">5%</button>
+            <button value="10" class="opt_btn">10%</button>
+            <button value="15" class="opt_btn">15%</button>
+            <button value="25" class="opt_btn">25%</button>
+            <button value="50" class="opt_btn">50%</button>
+            <input
+              type="text"
+              id="custom_tip"
+              placeholder="Custom"
+              class="opt_btn"
+            />
+          </div>
+        </div>
+        <div class="input_group">
+          <label class="input_label"
+            >Number of People
+            <span class="warning_msg">Can't be zero</span>
+          </label>
+
+          <div class="input_icon people">
+            <input type="number" id="num_people" placeholder="0" />
+          </div>
+        </div>
+      </section>
+
+      <section class="output_panel">
+        <div class="output_text">
+          <p>
+            Tip Amount
+            <br />
+            <span> / person </span>
+          </p>
+          <span class="output_amount" id="out_tip">$0.00</span>
+        </div>
+        <div class="output_text">
+          <p>
+            Total
+            <br />
+            <span> / person </span>
+          </p>
+          <span class="output_amount" id="out_total">$0.00</span>
+        </div>
+        <button type="button" disabled id="reset_btn">RESET</button>
+      </section>
+    </main>
+  </body>
+</html>
