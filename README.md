@@ -28,11 +28,11 @@ Users should be able to:
 
 #### Dekstop
 
-![](screenshot/screenshot_desktop.png)
+![](screenshots/screenshot_desktop.png)
 
 #### Mobile
 
-![](screenshot/screenshot_mobile.png)
+![](screenshots/screenshot_mobile.png)
 
 ### Links
 
