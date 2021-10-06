@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-mobile-first-tip-calculator-app-css-html-vanilla-js-vGHTZkP16)
-- Live Site URL: [Add live site URL here](https://hanz02.github.io/bill-tip-calculator-app/)
+- Solution URL: [Front End Mentor Solution](https://www.frontendmentor.io/solutions/responsive-mobile-first-tip-calculator-app-css-html-vanilla-js-vGHTZkP16)
+- Live Site URL: [Live Github Page](https://hanz02.github.io/bill-tip-calculator-app/)
 
 ## My process
 
